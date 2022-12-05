@@ -1,0 +1,8 @@
+
+2022-12-01 21:12:50,677 Downloading input artifact: sample.csv:latest
+2022-12-01 21:12:54,207 Cleaning step 1: retain items with price value between 10.0 and 350.0 dollars
+2022-12-01 21:12:54,211 Cleaning step 2: retain items with minimum_nights value between 1 and 365
+2022-12-01 21:12:54,212 Cleaning step 3: convert last_review to datetime
+2022-12-01 21:12:54,217 Cleaning step 4: limiting longitude and latitude to NYC area
+2022-12-01 21:12:54,219 Saving clean sample in local directory
+2022-12-01 21:12:54,373 Uploading clean_sample.csv to Weights & Biases
