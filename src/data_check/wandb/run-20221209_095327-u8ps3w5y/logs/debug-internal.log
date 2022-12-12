@@ -1,0 +1,141 @@
+2022-12-09 09:53:27,424 INFO    StreamThr :71035 [internal.py:wandb_internal():88] W&B internal server running at pid: 71035, started at: 2022-12-09 09:53:27.421626
+2022-12-09 09:53:27,427 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: status
+2022-12-09 09:53:27,429 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: status
+2022-12-09 09:53:27,431 DEBUG   SenderThread:71035 [sender.py:send():303] send: header
+2022-12-09 09:53:27,431 INFO    WriterThread:71035 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/run-u8ps3w5y.wandb
+2022-12-09 09:53:27,450 DEBUG   SenderThread:71035 [sender.py:send():303] send: run
+2022-12-09 09:53:27,451 INFO    SenderThread:71035 [sender.py:_maybe_setup_resume():593] checking resume status for None/nyc_airbnb/u8ps3w5y
+2022-12-09 09:53:27,644 INFO    SenderThread:71035 [sender.py:_maybe_setup_resume():656] configured resuming with: ResumeState(resumed=True,step=0,history=0,events=95,output=0,runtime=330.463647,wandb_runtime=228,summary={'_wandb': {'runtime': 228}},config={'_wandb': {'desc': None, 'value': {'t': {'1': [55], '2': [55], '3': [5, 23, 24], '4': '3.9.15', '5': '0.13.5', '8': [5]}, 'start_time': 1670575897.044117, 'cli_version': '0.13.5', 'is_jupyter_run': False, 'python_version': '3.9.15', 'is_kaggle_kernel': False}}})
+2022-12-09 09:53:28,095 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: check_version
+2022-12-09 09:53:28,101 INFO    SenderThread:71035 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files
+2022-12-09 09:53:28,101 INFO    SenderThread:71035 [sender.py:_start_run_threads():928] run started: u8ps3w5y with start time 1670575676.939497
+2022-12-09 09:53:28,101 DEBUG   SenderThread:71035 [sender.py:send():303] send: summary
+2022-12-09 09:53:28,102 INFO    SenderThread:71035 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:53:28,102 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: check_version
+2022-12-09 09:53:28,221 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: run_start
+2022-12-09 09:53:28,241 DEBUG   HandlerThread:71035 [system_info.py:__init__():31] System info init
+2022-12-09 09:53:28,241 DEBUG   HandlerThread:71035 [system_info.py:__init__():46] System info init done
+2022-12-09 09:53:28,242 INFO    HandlerThread:71035 [system_monitor.py:start():150] Starting system monitor
+2022-12-09 09:53:28,242 INFO    SystemMonitor:71035 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-09 09:53:28,243 INFO    SystemMonitor:71035 [interfaces.py:start():168] Started cpu
+2022-12-09 09:53:28,243 INFO    SystemMonitor:71035 [interfaces.py:start():168] Started disk
+2022-12-09 09:53:28,243 INFO    SystemMonitor:71035 [interfaces.py:start():168] Started memory
+2022-12-09 09:53:28,244 INFO    SystemMonitor:71035 [interfaces.py:start():168] Started network
+2022-12-09 09:53:28,250 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 09:53:28,250 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 09:53:28,417 DEBUG   SenderThread:71035 [sender.py:send():303] send: telemetry
+2022-12-09 09:53:29,114 INFO    Thread-13 :71035 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/wandb-summary.json
+2022-12-09 09:53:29,383 DEBUG   SenderThread:71035 [sender.py:send():303] send: telemetry
+2022-12-09 09:53:30,482 DEBUG   SenderThread:71035 [sender.py:send():303] send: exit
+2022-12-09 09:53:30,482 INFO    SenderThread:71035 [sender.py:send_exit():442] handling exit code: 0
+2022-12-09 09:53:30,483 INFO    SenderThread:71035 [sender.py:send_exit():444] handling runtime: 230
+2022-12-09 09:53:30,483 INFO    SenderThread:71035 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:53:30,483 INFO    SenderThread:71035 [sender.py:send_exit():450] send defer
+2022-12-09 09:53:30,483 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,483 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-09 09:53:30,483 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,483 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-09 09:53:30,483 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 1
+2022-12-09 09:53:30,483 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,483 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-09 09:53:30,483 INFO    HandlerThread:71035 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-09 09:53:30,507 DEBUG   SystemMonitor:71035 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-09 09:53:30,507 DEBUG   SystemMonitor:71035 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-09 09:53:30,507 DEBUG   SystemMonitor:71035 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [interfaces.py:finish():173] Joined cpu
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [interfaces.py:finish():173] Joined disk
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [interfaces.py:finish():173] Joined memory
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [interfaces.py:finish():173] Joined network
+2022-12-09 09:53:30,508 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 2
+2022-12-09 09:53:30,508 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-09 09:53:30,508 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 3
+2022-12-09 09:53:30,508 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,508 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-09 09:53:30,508 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-09 09:53:30,508 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 4
+2022-12-09 09:53:30,509 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,509 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-09 09:53:30,509 DEBUG   SenderThread:71035 [sender.py:send():303] send: summary
+2022-12-09 09:53:30,509 INFO    SenderThread:71035 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:53:30,509 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,509 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-09 09:53:30,509 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 5
+2022-12-09 09:53:30,509 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,509 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-09 09:53:30,509 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,509 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-09 09:53:30,711 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 6
+2022-12-09 09:53:30,712 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,712 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-09 09:53:30,712 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,712 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-09 09:53:30,713 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 7
+2022-12-09 09:53:30,713 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:30,713 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-09 09:53:30,713 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:30,713 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-09 09:53:30,713 INFO    SenderThread:71035 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-09 09:53:31,120 INFO    Thread-13 :71035 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/config.yaml
+2022-12-09 09:53:31,122 INFO    SenderThread:71035 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/wandb-summary.json
+2022-12-09 09:53:31,122 INFO    SenderThread:71035 [dir_watcher.py:finish():392] scan: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files
+2022-12-09 09:53:31,123 INFO    SenderThread:71035 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/config.yaml config.yaml
+2022-12-09 09:53:31,123 INFO    SenderThread:71035 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/wandb-summary.json wandb-summary.json
+2022-12-09 09:53:31,124 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 8
+2022-12-09 09:53:31,138 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:31,139 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-09 09:53:31,139 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:31,139 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-09 09:53:31,139 INFO    SenderThread:71035 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 09:53:31,488 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:53:31,488 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:53:31,884 INFO    Thread-17 :71035 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/wandb-summary.json
+2022-12-09 09:53:31,884 INFO    Thread-16 :71035 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/files/config.yaml
+2022-12-09 09:53:32,086 INFO    Thread-12 :71035 [sender.py:transition_state():463] send defer: 9
+2022-12-09 09:53:32,087 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:32,087 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-09 09:53:32,088 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:32,088 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-09 09:53:32,088 INFO    SenderThread:71035 [file_pusher.py:join():173] waiting for file pusher
+2022-12-09 09:53:32,088 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 10
+2022-12-09 09:53:32,089 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:32,089 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-09 09:53:32,089 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:32,090 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-09 09:53:32,493 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:53:32,599 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 11
+2022-12-09 09:53:32,600 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:53:32,600 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:32,601 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-09 09:53:32,601 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:32,602 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-09 09:53:32,602 INFO    SenderThread:71035 [sender.py:transition_state():463] send defer: 12
+2022-12-09 09:53:32,603 DEBUG   SenderThread:71035 [sender.py:send():303] send: final
+2022-12-09 09:53:32,603 DEBUG   SenderThread:71035 [sender.py:send():303] send: footer
+2022-12-09 09:53:32,603 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:53:32,603 INFO    HandlerThread:71035 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-09 09:53:32,604 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:53:32,604 INFO    SenderThread:71035 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-09 09:53:32,605 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:53:32,607 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:53:32,607 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:53:32,608 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: server_info
+2022-12-09 09:53:32,609 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:53:32,609 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-09 09:53:32,609 DEBUG   SenderThread:71035 [sender.py:send_request():317] send_request: server_info
+2022-12-09 09:53:32,610 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-09 09:53:33,026 INFO    MainThread:71035 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-09 09:53:33,026 INFO    MainThread:71035 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-09 09:53:33,027 INFO    MainThread:71035 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-12-09 09:53:33,028 DEBUG   HandlerThread:71035 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-09 09:53:33,028 INFO    HandlerThread:71035 [handler.py:finish():814] shutting down handler
+2022-12-09 09:53:33,606 INFO    WriterThread:71035 [datastore.py:close():279] close: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/data_check/wandb/run-20221209_095327-u8ps3w5y/run-u8ps3w5y.wandb
+2022-12-09 09:53:34,031 INFO    SenderThread:71035 [sender.py:finish():1331] shutting down sender
+2022-12-09 09:53:34,031 INFO    SenderThread:71035 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 09:53:34,031 INFO    SenderThread:71035 [file_pusher.py:join():173] waiting for file pusher
+2022-12-09 09:53:34,425 INFO    MainThread:71035 [internal.py:handle_exit():78] Internal process exited

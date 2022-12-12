@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/christoszacharopoulos/projects/ny_short_rental_prediction/mlruns/0/a4f8252b21274258a8fba4d9434eaae4/artifacts
+end_time: 1670521601816
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a4f8252b21274258a8fba4d9434eaae4
+run_uuid: a4f8252b21274258a8fba4d9434eaae4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670521598828
+status: 4
+tags: []
+user_id: christoszacharopoulos

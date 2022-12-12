@@ -1,0 +1,195 @@
+2022-12-09 09:29:49,355 INFO    StreamThr :67733 [internal.py:wandb_internal():88] W&B internal server running at pid: 67733, started at: 2022-12-09 09:29:49.354085
+2022-12-09 09:29:49,361 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: status
+2022-12-09 09:29:49,363 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: status
+2022-12-09 09:29:49,365 DEBUG   SenderThread:67733 [sender.py:send():303] send: header
+2022-12-09 09:29:49,367 INFO    WriterThread:67733 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/run-2k3vvoww.wandb
+2022-12-09 09:29:49,385 DEBUG   SenderThread:67733 [sender.py:send():303] send: run
+2022-12-09 09:29:49,803 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: check_version
+2022-12-09 09:29:49,810 INFO    SenderThread:67733 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files
+2022-12-09 09:29:49,811 INFO    SenderThread:67733 [sender.py:_start_run_threads():928] run started: 2k3vvoww with start time 1670574589.338072
+2022-12-09 09:29:49,811 DEBUG   SenderThread:67733 [sender.py:send():303] send: summary
+2022-12-09 09:29:49,811 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:29:49,812 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: check_version
+2022-12-09 09:29:49,934 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: run_start
+2022-12-09 09:29:49,935 DEBUG   HandlerThread:67733 [system_info.py:__init__():31] System info init
+2022-12-09 09:29:49,935 DEBUG   HandlerThread:67733 [system_info.py:__init__():46] System info init done
+2022-12-09 09:29:49,935 INFO    HandlerThread:67733 [system_monitor.py:start():150] Starting system monitor
+2022-12-09 09:29:49,936 INFO    SystemMonitor:67733 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-09 09:29:49,936 INFO    HandlerThread:67733 [system_monitor.py:probe():168] Collecting system info
+2022-12-09 09:29:49,936 INFO    SystemMonitor:67733 [interfaces.py:start():168] Started cpu
+2022-12-09 09:29:49,936 INFO    SystemMonitor:67733 [interfaces.py:start():168] Started disk
+2022-12-09 09:29:49,937 DEBUG   HandlerThread:67733 [system_info.py:probe():195] Probing system
+2022-12-09 09:29:49,937 INFO    SystemMonitor:67733 [interfaces.py:start():168] Started memory
+2022-12-09 09:29:49,937 INFO    SystemMonitor:67733 [interfaces.py:start():168] Started network
+2022-12-09 09:29:49,949 DEBUG   HandlerThread:67733 [system_info.py:_probe_git():180] Probing git
+2022-12-09 09:29:49,995 DEBUG   HandlerThread:67733 [system_info.py:_probe_git():188] Probing git done
+2022-12-09 09:29:49,995 DEBUG   HandlerThread:67733 [system_info.py:probe():241] Probing system done
+2022-12-09 09:29:49,995 DEBUG   HandlerThread:67733 [system_monitor.py:probe():177] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.15', 'heartbeatAt': '2022-12-09T08:29:49.937253', 'startedAt': '2022-12-09T08:29:49.323151', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/Users/christoszacharopoulos/projects/ny_short_rental_prediction/multirun/2022-12-09/09-20-13/5/rf_config.json', '--max_tfidf_features', '10', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': 'run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/Christonikos/ny_short_rental_prediction.git', 'commit': '887fcf068e376fbc026319075c71b8a36e95fbfb'}, 'email': 'christonik@gmail.com', 'root': '/Users/christoszacharopoulos/projects/ny_short_rental_prediction', 'host': 'Christoss-MacBook-Air-2.local', 'username': 'christoszacharopoulos', 'executable': '/Users/christoszacharopoulos/anaconda3/envs/mlflow-ba66c90db42a008eeacbeeadf1038be29b5db81a/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 228.27386474609375, 'used': 14.34982681274414}, 'memory': {'total': 16.0}}
+2022-12-09 09:29:49,996 INFO    HandlerThread:67733 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-09 09:29:49,996 INFO    HandlerThread:67733 [system_monitor.py:probe():181] Publishing system info
+2022-12-09 09:29:49,996 DEBUG   HandlerThread:67733 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-09 09:29:49,996 DEBUG   HandlerThread:67733 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-09 09:29:49,996 DEBUG   HandlerThread:67733 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-09 09:29:50,817 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-summary.json
+2022-12-09 09:29:50,818 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/requirements.txt
+2022-12-09 09:29:50,818 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/conda-environment.yaml
+2022-12-09 09:29:51,467 DEBUG   HandlerThread:67733 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-09 09:29:51,468 INFO    HandlerThread:67733 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-09 09:29:51,470 DEBUG   SenderThread:67733 [sender.py:send():303] send: files
+2022-12-09 09:29:51,470 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-09 09:29:51,474 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 09:29:51,474 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 09:29:51,663 DEBUG   SenderThread:67733 [sender.py:send():303] send: telemetry
+2022-12-09 09:29:51,664 DEBUG   SenderThread:67733 [sender.py:send():303] send: config
+2022-12-09 09:29:51,664 DEBUG   SenderThread:67733 [sender.py:send():303] send: config
+2022-12-09 09:29:51,817 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/conda-environment.yaml
+2022-12-09 09:29:51,817 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-metadata.json
+2022-12-09 09:29:52,090 INFO    Thread-16 :67733 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpfshupr2dwandb/4mjvqqr8-wandb-metadata.json
+2022-12-09 09:29:52,830 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log
+2022-12-09 09:29:54,840 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log
+2022-12-09 09:30:06,670 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 09:30:06,671 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 09:30:20,974 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/config.yaml
+2022-12-09 09:30:21,882 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 09:30:21,883 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 09:30:22,692 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: log_artifact
+2022-12-09 09:30:22,692 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: log_artifact
+2022-12-09 09:30:23,303 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-09 09:30:23,915 INFO    Thread-19 :67733 [upload_job.py:push():98] Skipped uploading /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/51/ef02e5be8878d8396b2645dfc47807
+2022-12-09 09:30:23,916 INFO    Thread-20 :67733 [upload_job.py:push():98] Skipped uploading /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/03/b8b5479762df2a96a078fff24c6354
+2022-12-09 09:30:23,984 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/media/images/feature_importance_0_00fa002e36a6ef344927.png
+2022-12-09 09:30:23,985 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/media/images
+2022-12-09 09:30:23,985 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/media
+2022-12-09 09:30:24,272 INFO    Thread-18 :67733 [upload_job.py:push():101] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/01/fef02c05925305b91ebf74068666bc
+2022-12-09 09:30:24,311 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:30:24,383 INFO    Thread-21 :67733 [upload_job.py:push():101] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/32/173ad02ad438a8c7a26798999868e9
+2022-12-09 09:30:24,565 INFO    Thread-22 :67733 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpfshupr2dwandb/1nryuw3o-media/images/feature_importance_0_00fa002e36a6ef344927.png
+2022-12-09 09:30:24,991 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log
+2022-12-09 09:30:25,387 INFO    SenderThread:67733 [sender.py:send_request_log_artifact():1222] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6Mjk1NzQ3MDI1', 'digest': 'd0cd03e5e100e402f09c0311d0c46226', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2NjczMTY2', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk1NzQ2NDI5', 'versionIndex': 90}}, 'version': 'latest'}
+2022-12-09 09:30:25,387 DEBUG   SenderThread:67733 [sender.py:send():303] send: summary
+2022-12-09 09:30:25,389 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:30:25,389 DEBUG   SenderThread:67733 [sender.py:send():303] send: summary
+2022-12-09 09:30:25,389 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:30:25,390 DEBUG   SenderThread:67733 [sender.py:send():303] send: files
+2022-12-09 09:30:25,390 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file media/images/feature_importance_0_00fa002e36a6ef344927.png with policy now
+2022-12-09 09:30:25,391 DEBUG   SenderThread:67733 [sender.py:send():303] send: history
+2022-12-09 09:30:25,391 DEBUG   SenderThread:67733 [sender.py:send():303] send: summary
+2022-12-09 09:30:25,392 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:30:25,392 DEBUG   SenderThread:67733 [sender.py:send():303] send: exit
+2022-12-09 09:30:25,392 INFO    SenderThread:67733 [sender.py:send_exit():442] handling exit code: 0
+2022-12-09 09:30:25,392 INFO    SenderThread:67733 [sender.py:send_exit():444] handling runtime: 33
+2022-12-09 09:30:25,393 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:30:25,393 INFO    SenderThread:67733 [sender.py:send_exit():450] send defer
+2022-12-09 09:30:25,393 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:30:25,394 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,395 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-09 09:30:25,401 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,401 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-09 09:30:25,401 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 1
+2022-12-09 09:30:25,402 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,402 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-09 09:30:25,403 INFO    HandlerThread:67733 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-09 09:30:25,427 DEBUG   SystemMonitor:67733 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-09 09:30:25,427 DEBUG   SystemMonitor:67733 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-09 09:30:25,427 DEBUG   SystemMonitor:67733 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-09 09:30:25,428 INFO    HandlerThread:67733 [interfaces.py:finish():173] Joined cpu
+2022-12-09 09:30:25,428 INFO    HandlerThread:67733 [interfaces.py:finish():173] Joined disk
+2022-12-09 09:30:25,429 INFO    HandlerThread:67733 [interfaces.py:finish():173] Joined memory
+2022-12-09 09:30:25,429 INFO    HandlerThread:67733 [interfaces.py:finish():173] Joined network
+2022-12-09 09:30:25,429 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,429 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-09 09:30:25,429 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 2
+2022-12-09 09:30:25,430 DEBUG   SenderThread:67733 [sender.py:send():303] send: stats
+2022-12-09 09:30:25,431 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,431 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-09 09:30:25,431 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,431 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-09 09:30:25,432 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 3
+2022-12-09 09:30:25,432 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,432 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-09 09:30:25,432 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,432 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-09 09:30:25,432 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 4
+2022-12-09 09:30:25,433 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,433 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-09 09:30:25,433 DEBUG   SenderThread:67733 [sender.py:send():303] send: summary
+2022-12-09 09:30:25,434 INFO    SenderThread:67733 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 09:30:25,434 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,434 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-09 09:30:25,434 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 5
+2022-12-09 09:30:25,435 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,435 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-09 09:30:25,435 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,435 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-09 09:30:25,435 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 6
+2022-12-09 09:30:25,436 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:25,436 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-09 09:30:25,436 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:25,436 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-09 09:30:25,998 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-summary.json
+2022-12-09 09:30:26,180 INFO    Thread-23 :67733 [upload_job.py:push():143] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpfshupr2dwandb/bsx49en8-media/images/feature_importance_0_00fa002e36a6ef344927.png
+2022-12-09 09:30:26,654 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 7
+2022-12-09 09:30:26,656 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:26,673 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-09 09:30:26,675 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:26,693 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-09 09:30:26,693 INFO    SenderThread:67733 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-09 09:30:27,003 INFO    Thread-13 :67733 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log
+2022-12-09 09:30:27,004 INFO    SenderThread:67733 [dir_watcher.py:finish():392] scan: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files
+2022-12-09 09:30:27,005 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/requirements.txt requirements.txt
+2022-12-09 09:30:27,006 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log output.log
+2022-12-09 09:30:27,007 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/config.yaml config.yaml
+2022-12-09 09:30:27,019 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-summary.json wandb-summary.json
+2022-12-09 09:30:27,025 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/conda-environment.yaml conda-environment.yaml
+2022-12-09 09:30:27,026 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-metadata.json wandb-metadata.json
+2022-12-09 09:30:27,038 INFO    SenderThread:67733 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/media/images/feature_importance_0_00fa002e36a6ef344927.png media/images/feature_importance_0_00fa002e36a6ef344927.png
+2022-12-09 09:30:27,038 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 8
+2022-12-09 09:30:27,040 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:27,040 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-09 09:30:27,040 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:27,041 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-09 09:30:27,041 INFO    SenderThread:67733 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 09:30:27,780 INFO    Thread-27 :67733 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/wandb-summary.json
+2022-12-09 09:30:27,780 INFO    Thread-26 :67733 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/config.yaml
+2022-12-09 09:30:27,789 INFO    Thread-25 :67733 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/output.log
+2022-12-09 09:30:27,791 INFO    Thread-24 :67733 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/requirements.txt
+2022-12-09 09:30:27,796 INFO    Thread-28 :67733 [upload_job.py:push():143] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/files/conda-environment.yaml
+2022-12-09 09:30:28,001 INFO    Thread-12 :67733 [sender.py:transition_state():463] send defer: 9
+2022-12-09 09:30:28,003 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:28,003 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-09 09:30:28,004 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:28,004 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-09 09:30:28,004 INFO    SenderThread:67733 [file_pusher.py:join():173] waiting for file pusher
+2022-12-09 09:30:28,004 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 10
+2022-12-09 09:30:28,005 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:28,005 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-09 09:30:28,005 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:28,005 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-09 09:30:28,276 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 11
+2022-12-09 09:30:28,278 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:28,278 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-09 09:30:28,278 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:28,279 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-09 09:30:28,279 INFO    SenderThread:67733 [sender.py:transition_state():463] send defer: 12
+2022-12-09 09:30:28,280 DEBUG   SenderThread:67733 [sender.py:send():303] send: final
+2022-12-09 09:30:28,281 DEBUG   SenderThread:67733 [sender.py:send():303] send: footer
+2022-12-09 09:30:28,281 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 09:30:28,281 INFO    HandlerThread:67733 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-09 09:30:28,281 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: defer
+2022-12-09 09:30:28,282 INFO    SenderThread:67733 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-09 09:30:28,284 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 09:30:28,284 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 09:30:28,285 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: server_info
+2022-12-09 09:30:28,285 DEBUG   SenderThread:67733 [sender.py:send_request():317] send_request: server_info
+2022-12-09 09:30:28,289 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-09 09:30:28,290 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-09 09:30:28,500 INFO    MainThread:67733 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-09 09:30:28,501 INFO    MainThread:67733 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-09 09:30:28,501 INFO    MainThread:67733 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-12-09 09:30:28,502 DEBUG   HandlerThread:67733 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-09 09:30:28,502 INFO    HandlerThread:67733 [handler.py:finish():814] shutting down handler
+2022-12-09 09:30:29,284 INFO    WriterThread:67733 [datastore.py:close():279] close: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/train_random_forest/wandb/run-20221209_092949-2k3vvoww/run-2k3vvoww.wandb
+2022-12-09 09:30:29,501 INFO    SenderThread:67733 [sender.py:finish():1331] shutting down sender
+2022-12-09 09:30:29,502 INFO    SenderThread:67733 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 09:30:29,502 INFO    SenderThread:67733 [file_pusher.py:join():173] waiting for file pusher
+2022-12-09 09:30:30,395 INFO    MainThread:67733 [internal.py:handle_exit():78] Internal process exited

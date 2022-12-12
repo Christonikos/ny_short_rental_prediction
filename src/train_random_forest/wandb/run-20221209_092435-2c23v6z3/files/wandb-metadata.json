@@ -1,0 +1,57 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-12-09T08:24:36.500570",
+    "startedAt": "2022-12-09T08:24:35.925942",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/Users/christoszacharopoulos/projects/ny_short_rental_prediction/multirun/2022-12-09/09-20-13/2/rf_config.json",
+        "--max_tfidf_features",
+        "10",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/Christonikos/ny_short_rental_prediction.git",
+        "commit": "887fcf068e376fbc026319075c71b8a36e95fbfb"
+    },
+    "email": "christonik@gmail.com",
+    "root": "/Users/christoszacharopoulos/projects/ny_short_rental_prediction",
+    "host": "Christoss-MacBook-Air-2.local",
+    "username": "christoszacharopoulos",
+    "executable": "/Users/christoszacharopoulos/anaconda3/envs/mlflow-ba66c90db42a008eeacbeeadf1038be29b5db81a/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 14.34982681274414
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
