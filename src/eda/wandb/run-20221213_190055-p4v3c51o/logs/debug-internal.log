@@ -1,0 +1,1492 @@
+2022-12-13 19:00:55,693 INFO    StreamThr :20167 [internal.py:wandb_internal():90] W&B internal server running at pid: 20167, started at: 2022-12-13 19:00:55.691939
+2022-12-13 19:00:55,696 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: status
+2022-12-13 19:00:55,698 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: status
+2022-12-13 19:00:55,738 DEBUG   SenderThread:20167 [sender.py:send():302] send: header
+2022-12-13 19:00:55,738 INFO    WriterThread:20167 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/run-p4v3c51o.wandb
+2022-12-13 19:00:55,770 DEBUG   SenderThread:20167 [sender.py:send():302] send: run
+2022-12-13 19:00:56,124 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: check_version
+2022-12-13 19:00:56,138 INFO    SenderThread:20167 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files
+2022-12-13 19:00:56,138 INFO    SenderThread:20167 [sender.py:_start_run_threads():913] run started: p4v3c51o with start time 1670954455.67473
+2022-12-13 19:00:56,138 DEBUG   SenderThread:20167 [sender.py:send():302] send: summary
+2022-12-13 19:00:56,139 INFO    SenderThread:20167 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 19:00:56,139 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: check_version
+2022-12-13 19:00:56,227 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: run_start
+2022-12-13 19:00:56,228 DEBUG   HandlerThread:20167 [meta.py:__init__():35] meta init
+2022-12-13 19:00:56,228 DEBUG   HandlerThread:20167 [meta.py:__init__():50] meta init done
+2022-12-13 19:00:56,228 DEBUG   HandlerThread:20167 [meta.py:probe():216] probe
+2022-12-13 19:00:56,241 DEBUG   HandlerThread:20167 [meta.py:_setup_git():206] setup git
+2022-12-13 19:00:56,288 DEBUG   HandlerThread:20167 [meta.py:_setup_git():213] setup git done
+2022-12-13 19:00:56,288 DEBUG   HandlerThread:20167 [meta.py:_save_code():88] save code
+2022-12-13 19:00:56,288 WARNING HandlerThread:20167 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-12-13 19:00:56,288 DEBUG   HandlerThread:20167 [meta.py:_save_patches():126] save patches
+2022-12-13 19:00:56,562 DEBUG   HandlerThread:20167 [meta.py:_save_patches():168] save patches done
+2022-12-13 19:00:56,562 DEBUG   HandlerThread:20167 [meta.py:_save_pip():54] save pip
+2022-12-13 19:00:56,563 DEBUG   HandlerThread:20167 [meta.py:_save_pip():68] save pip done
+2022-12-13 19:00:56,563 DEBUG   HandlerThread:20167 [meta.py:_save_conda():75] save conda
+2022-12-13 19:00:57,145 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/diff.patch
+2022-12-13 19:00:57,145 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-summary.json
+2022-12-13 19:00:57,145 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/requirements.txt
+2022-12-13 19:00:57,145 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/conda-environment.yaml
+2022-12-13 19:01:21,234 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/conda-environment.yaml
+2022-12-13 19:01:21,324 DEBUG   HandlerThread:20167 [meta.py:_save_conda():85] save conda done
+2022-12-13 19:01:21,325 DEBUG   HandlerThread:20167 [meta.py:probe():254] probe done
+2022-12-13 19:01:21,329 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:01:21,329 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:01:21,330 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,330 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,330 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,355 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,355 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,356 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,356 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,356 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,462 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,462 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,462 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,462 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,462 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,568 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,568 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,569 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,569 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,569 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,672 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,672 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,672 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,672 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,672 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,778 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,778 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,779 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,779 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,779 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,886 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,887 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,888 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,889 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,889 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:21,996 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:21,996 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:21,998 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:21,999 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:21,999 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:22,106 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:22,106 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:22,107 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:22,108 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:22,108 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:22,213 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:22,214 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:22,214 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:01:22,215 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:22,215 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:22,215 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:22,224 DEBUG   SenderThread:20167 [sender.py:send():302] send: telemetry
+2022-12-13 19:01:22,226 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:22,237 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-metadata.json
+2022-12-13 19:01:22,320 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:01:22,321 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:01:22,324 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:01:22,324 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:01:22,324 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:01:22,763 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:22,764 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:23,119 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:23,122 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:23,238 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/output.log
+2022-12-13 19:01:23,502 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:23,512 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:23,931 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:23,932 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:24,310 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:24,310 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:24,675 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:24,675 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:25,054 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:25,055 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:25,248 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/output.log
+2022-12-13 19:01:25,427 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:25,428 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:26,932 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:27,151 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:01:27,260 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/config.yaml
+2022-12-13 19:01:27,322 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:27,709 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:27,710 DEBUG   SenderThread:20167 [sender.py:send():302] send: files
+2022-12-13 19:01:27,710 INFO    SenderThread:20167 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-12-13 19:01:27,712 INFO    SenderThread:20167 [sender.py:_save_file():1156] saving file diff.patch with policy now
+2022-12-13 19:01:27,713 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:27,715 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:27,717 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:27,718 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:27,718 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:27,718 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:01:28,097 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v20'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'v20'}
+2022-12-13 19:01:28,098 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,098 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,099 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,099 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,100 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,101 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-13 19:01:28,710 INFO    Thread-26 :20167 [upload_job.py:push():138] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmp9obux7n0wandb/3jinldqq-wandb-metadata.json
+2022-12-13 19:01:29,180 INFO    Thread-27 :20167 [upload_job.py:push():138] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmp9obux7n0wandb/10fa9kdy-diff.patch
+2022-12-13 19:01:41,259 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:01:41,261 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:01:56,446 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:01:56,447 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:02:11,639 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:02:11,641 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:02:26,862 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:02:26,863 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:02:42,041 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:02:42,042 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:02:57,231 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:02:57,232 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:03:12,430 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:03:12,432 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:03:27,638 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:03:27,639 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:03:42,839 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:03:42,840 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:03:58,032 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:03:58,033 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:04:13,224 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:04:13,226 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:04:28,420 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:04:28,421 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:04:43,623 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:04:43,625 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:04:58,817 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:04:58,819 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:05:14,006 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:05:14,008 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:05:29,198 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:05:29,199 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:05:44,389 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:05:44,390 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:05:59,585 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:05:59,586 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:06:14,791 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:06:14,793 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:06:29,990 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:06:29,991 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:06:45,191 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:06:45,192 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:07:00,401 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:07:00,402 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:07:15,600 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:07:15,601 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:07:30,808 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:07:30,809 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:07:46,011 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:07:46,012 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:08:01,201 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:08:01,202 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:08:16,398 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:08:16,399 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:08:31,591 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:08:31,592 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:08:46,842 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:08:46,843 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:09:02,040 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:09:02,041 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:09:17,241 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:09:17,242 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:09:32,437 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:09:32,438 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:09:47,642 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:09:47,643 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:10:02,836 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:10:02,837 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:10:18,031 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:10:18,032 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:10:33,231 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:10:33,232 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:10:48,422 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:10:48,423 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:11:03,627 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:11:03,628 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:11:18,824 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:11:18,825 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:11:34,030 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:11:34,031 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:11:49,244 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:11:49,245 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:12:04,450 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:12:04,451 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:12:19,641 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:12:19,642 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:12:34,840 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:12:34,841 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:12:50,048 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:12:50,049 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:13:05,249 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:13:05,249 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:13:20,411 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:13:20,412 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:13:35,620 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:13:35,621 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:13:50,816 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:13:50,816 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:14:06,007 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:14:06,008 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:14:21,164 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:14:21,165 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:14:36,352 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:14:36,353 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:14:51,557 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:14:51,558 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:15:06,767 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:15:06,767 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:15:21,983 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:15:21,984 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:15:37,199 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:15:37,200 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:15:52,402 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:15:52,403 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:16:07,593 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:16:07,594 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:16:22,752 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:16:22,753 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:16:37,936 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:16:37,937 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:16:53,129 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:16:53,130 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:17:08,327 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:17:08,328 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:17:23,510 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:17:23,511 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:34:09,017 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:34:09,019 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:34:24,214 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:34:24,216 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:34:31,159 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 19:34:39,410 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:34:39,411 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:34:54,604 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:34:54,605 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:35:09,811 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:35:09,812 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:35:25,001 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:35:25,002 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:35:40,203 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:35:40,204 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:51:31,520 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:51:31,521 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:51:40,427 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 19:51:46,756 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:51:46,757 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:52:01,946 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:52:01,947 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:52:17,155 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:52:17,156 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:09:29,450 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:09:29,451 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:09:40,338 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 20:09:44,669 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:09:44,670 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:10:00,114 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:10:00,115 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:25:35,077 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 20:25:37,658 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:25:37,659 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:25:52,851 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:25:52,852 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:26:08,202 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:26:08,203 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:26:23,402 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:26:23,404 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:42:21,033 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 20:42:22,120 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:42:22,121 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:42:37,383 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:42:37,385 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:42:52,583 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:42:52,584 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:59:37,467 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:59:37,468 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:59:52,674 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 20:59:52,675 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 20:59:53,144 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 21:00:07,867 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:00:07,868 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:00:23,056 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:00:23,057 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:00:38,259 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:00:38,259 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:00:53,449 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:00:53,449 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:18:47,271 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:18:47,383 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:19:02,944 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:19:02,945 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:19:03,446 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 21:19:18,144 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:19:18,145 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:19:34,058 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:19:34,059 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:19:49,263 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:19:49,264 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:35:22,776 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:35:22,777 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:35:24,542 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 21:35:37,997 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:35:37,998 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:35:53,220 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:35:53,221 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:52:29,792 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:52:29,793 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:52:45,040 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:52:45,041 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:52:48,665 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 21:53:00,238 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:53:00,239 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 21:53:15,436 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 21:53:15,437 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:08:35,739 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:08:35,740 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:08:50,996 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:08:50,997 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:08:56,813 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 22:09:06,197 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:09:06,197 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:09:21,366 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:09:21,367 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:24:38,970 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 22:24:50,901 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:24:50,902 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:25:06,097 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:25:06,098 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:42:00,322 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:42:00,323 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:42:15,535 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:42:15,536 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:42:20,603 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 22:42:30,738 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:42:30,739 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:57:47,493 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:57:47,493 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:57:54,757 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 22:58:02,738 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:58:02,739 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:58:17,949 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:58:17,950 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 22:58:33,147 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 22:58:33,148 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:14:23,349 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:14:23,350 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:14:32,320 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 23:14:38,583 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:14:38,585 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:14:53,836 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:14:53,837 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:32:12,857 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 23:32:16,974 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:32:16,975 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:32:32,181 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:32:32,182 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:32:47,538 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:32:47,539 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:44:18,986 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:44:18,988 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:44:31,502 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 23:44:34,121 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError(22, 'Invalid argument')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-13 23:44:34,222 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:44:34,222 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:44:51,005 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:44:51,006 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:45:06,185 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:45:06,188 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:45:21,362 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:45:21,377 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:45:36,558 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:45:36,560 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:45:51,746 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:45:51,751 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:46:06,946 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:46:06,948 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:46:22,123 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:46:22,124 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:46:37,319 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:46:37,320 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:46:52,512 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:46:52,513 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:47:07,706 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:47:07,707 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:47:22,947 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:47:22,948 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:47:38,144 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:47:38,145 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:47:53,336 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:47:53,337 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:48:08,560 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:48:08,561 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:48:23,751 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:48:23,751 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:48:38,946 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:48:38,947 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:48:54,136 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:48:54,137 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:49:14,143 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:49:14,145 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:49:29,346 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:49:29,347 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:49:44,535 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:49:44,536 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:49:59,732 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:49:59,733 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:50:14,932 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:50:14,933 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:50:30,133 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:50:30,134 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:50:45,308 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:50:45,309 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:51:00,513 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:51:00,514 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:51:15,702 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:51:15,704 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:51:30,907 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:51:30,908 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:51:46,104 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:51:46,105 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:52:01,306 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:52:01,307 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:52:16,503 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:52:16,505 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:52:31,700 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:52:31,701 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:52:46,898 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:52:46,899 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:53:02,109 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:53:02,111 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:53:17,306 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:53:17,307 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:53:32,508 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:53:32,510 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:53:47,701 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:53:47,702 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:54:02,902 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:54:02,903 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:54:18,099 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:54:18,101 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:54:33,317 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:54:33,318 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:54:48,514 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:54:48,517 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:55:03,710 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:55:03,712 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:55:18,909 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:55:18,911 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:55:34,114 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:55:34,115 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:55:49,304 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:55:49,305 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:56:04,496 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:56:04,497 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:56:19,688 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:56:19,690 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:58:17,741 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:58:17,743 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:58:33,044 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:58:33,044 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 23:58:48,332 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 23:58:48,333 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:14:11,962 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 00:14:19,737 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:14:19,738 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:14:34,947 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:14:34,948 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:14:50,364 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:14:50,365 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:31:35,758 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:31:35,759 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:31:44,930 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 00:31:50,952 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:31:50,953 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:32:06,177 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:32:06,178 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:49:33,900 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:49:33,900 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:49:49,479 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:49:49,481 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:49:59,796 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 00:50:04,694 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:50:04,695 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:50:19,887 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:50:19,888 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 00:50:35,091 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 00:50:35,092 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:08:01,795 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:08:01,796 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:08:14,538 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 01:08:16,981 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:08:16,982 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:08:32,184 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:08:32,185 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:12:24,740 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:12:24,741 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:12:39,938 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:12:39,939 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:12:55,126 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:12:55,128 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:13:10,327 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:13:10,343 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:13:25,540 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:13:25,540 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:13:40,692 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:13:40,693 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:13:55,882 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:13:55,882 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:14:11,075 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:14:11,077 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:14:26,272 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:14:26,273 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:14:41,424 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:14:41,425 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:14:56,618 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:14:56,619 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:15:11,813 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:15:11,814 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:15:27,003 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:15:27,003 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:15:42,207 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:15:42,209 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:15:57,398 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:15:57,400 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:16:12,583 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:16:12,584 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:16:27,783 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:16:27,783 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:16:42,943 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:16:42,944 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:16:58,149 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:16:58,150 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:17:13,342 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:17:13,343 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:17:28,534 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:17:28,535 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:17:43,702 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:17:43,703 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:17:58,888 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:17:58,889 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:18:14,076 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:18:14,077 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:18:29,272 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:18:29,273 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:18:44,472 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:18:44,473 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:18:59,664 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:18:59,665 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:19:14,860 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:19:14,861 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:19:30,047 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:19:30,048 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:19:45,236 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:19:45,237 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:20:00,438 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:20:00,439 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:20:15,768 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:20:15,769 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:20:30,968 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:20:30,970 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:20:46,202 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:20:46,203 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:21:01,403 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:21:01,404 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:21:16,592 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:21:16,594 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:21:31,792 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:21:31,794 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:21:46,995 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:21:46,996 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:22:02,194 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:22:02,195 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:22:17,384 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:22:17,385 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:22:32,597 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:22:32,599 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:22:47,787 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:22:47,788 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:23:02,975 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:23:02,976 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:23:18,167 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:23:18,168 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:23:33,368 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:23:33,369 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:23:48,562 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:23:48,563 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:24:03,760 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:24:03,762 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:24:18,956 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:24:18,957 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:24:34,151 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:24:34,153 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:39:51,378 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:39:51,380 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:39:59,927 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 01:40:06,657 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:40:06,658 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:40:22,246 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:40:22,247 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:58:23,323 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 01:58:28,530 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:58:28,531 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:58:43,719 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:58:43,721 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:58:59,134 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:58:59,135 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 01:59:14,327 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 01:59:14,328 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:16:07,550 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 02:16:10,956 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:16:10,957 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:16:26,141 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:16:26,142 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:16:41,377 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:16:41,378 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:34:05,600 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:34:05,602 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:34:19,130 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 02:34:20,807 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:34:20,808 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:34:35,991 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:34:35,992 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:52:41,701 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:52:41,702 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:52:42,126 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 02:52:56,915 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:52:56,916 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:53:12,129 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:53:12,130 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:53:27,337 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:53:27,338 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 02:53:42,528 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 02:53:42,529 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:10:51,401 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:10:51,402 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:11:06,643 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:11:06,644 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:11:21,832 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:11:21,834 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:27:47,618 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:27:47,620 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:27:49,798 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 03:28:02,831 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:28:02,832 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:28:18,027 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:28:18,028 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:45:16,177 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:45:16,178 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:45:31,449 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:45:31,450 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:45:35,281 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 03:45:46,958 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:45:46,958 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:46:02,116 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:46:02,117 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:46:17,321 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:46:17,322 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:46:32,516 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:46:32,517 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:46:47,712 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:46:47,712 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:47:02,890 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:47:02,892 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:47:18,090 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:47:18,091 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:47:33,299 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:47:33,300 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:47:48,499 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:47:48,500 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:48:03,678 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:48:03,679 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:48:18,883 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:48:18,884 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:48:34,089 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:48:34,089 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:48:49,292 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:48:49,293 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:49:04,469 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:49:04,470 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:49:19,667 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:49:19,668 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:49:34,876 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:49:34,877 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:49:50,075 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:49:50,076 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:50:05,243 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:50:05,244 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:50:20,429 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:50:20,431 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:50:35,618 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:50:35,619 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:50:50,823 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:50:50,824 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:51:06,015 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:51:06,016 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:51:21,212 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:51:21,213 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:51:36,414 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:51:36,415 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:51:51,620 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:51:51,621 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:52:06,815 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:52:06,816 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:52:22,025 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:52:22,026 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:52:37,215 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:52:37,216 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:52:52,404 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:52:52,405 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:53:07,612 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:53:07,613 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:53:22,838 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:53:22,839 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:53:38,033 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:53:38,034 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:53:53,237 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:53:53,238 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:54:08,440 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:54:08,441 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:54:23,645 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:54:23,646 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:54:38,836 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:54:38,837 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:54:54,050 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:54:54,051 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:55:09,251 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:55:09,252 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:55:24,459 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:55:24,460 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:55:39,661 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:55:39,662 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:55:54,854 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:55:54,855 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:56:10,050 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:56:10,052 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:56:25,249 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:56:25,250 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:56:40,450 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:56:40,451 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:56:55,652 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:56:55,653 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:57:10,854 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:57:10,855 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:57:26,049 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:57:26,050 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:57:41,262 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:57:41,263 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:57:56,452 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:57:56,453 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:58:11,644 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:58:11,645 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:58:26,853 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:58:26,854 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:58:42,054 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:58:42,055 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:58:57,258 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:58:57,259 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:59:12,451 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:59:12,452 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:59:28,211 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:59:28,212 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:59:43,413 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:59:43,414 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 03:59:58,618 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 03:59:58,619 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:00:13,812 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:00:13,813 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:16:42,276 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:16:42,277 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:16:50,469 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 04:16:57,458 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:16:57,459 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:33:53,774 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:33:53,774 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:34:04,163 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 04:34:08,995 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:34:08,996 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:34:24,199 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:34:24,200 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:51:55,807 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:51:55,807 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:52:11,035 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:52:11,036 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:52:23,327 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 04:52:26,232 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:52:26,233 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:52:41,433 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:52:41,434 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 04:52:56,630 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 04:52:56,632 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:09:24,080 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:09:24,082 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:09:38,358 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 05:09:39,323 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:09:39,324 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:09:54,520 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:09:54,521 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:26:25,003 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:26:25,004 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:26:26,301 WARNING FileStreamThread:20167 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')). func: <bound method Session.post of <requests.sessions.Session object at 0x7fb620161070>>, args: ('https://api.wandb.ai/files/christonikos/nyc_airbnb/p4v3c51o/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-12-14 05:26:40,208 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:26:40,209 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:26:55,400 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:26:55,401 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:43:54,389 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:43:54,390 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:44:09,668 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:44:09,669 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 05:44:25,074 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 05:44:25,076 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:00:33,732 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:00:33,734 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:00:48,972 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:00:48,986 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:01:04,366 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:01:04,367 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:17:06,885 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:17:06,887 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:17:22,119 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:17:22,120 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:17:37,328 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:17:37,329 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:34:58,090 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:34:58,091 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:35:13,353 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:35:13,354 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:35:28,550 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:35:28,551 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:50:47,863 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:50:47,863 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:51:03,083 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:51:03,084 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:51:18,282 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:51:18,283 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:51:33,477 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:51:33,478 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 06:51:48,669 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 06:51:48,670 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:07:36,757 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:07:36,758 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:07:51,979 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:07:51,980 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:08:07,175 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:08:07,176 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:26:14,379 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:26:14,380 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:26:29,636 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:26:29,637 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:26:44,837 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:26:44,838 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:43:16,417 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:43:16,419 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:43:31,686 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:43:31,687 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:43:46,873 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:43:46,874 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:59:06,790 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:59:06,791 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:59:22,031 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:59:22,032 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 07:59:37,432 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 07:59:37,433 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:15:04,020 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:15:04,021 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:15:19,242 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:15:19,243 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:15:34,725 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:15:34,726 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:32:59,665 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:32:59,665 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:33:14,994 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:33:14,995 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:33:30,209 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:33:30,210 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:51:26,891 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:51:26,891 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:51:42,141 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:51:42,142 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:51:57,352 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:51:57,353 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 08:52:12,543 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 08:52:12,545 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:00:25,920 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:00:25,922 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:00:41,638 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:00:41,639 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:00:56,797 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:00:56,798 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:01:11,993 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:01:11,994 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:01:27,178 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:01:27,179 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:01:42,364 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:01:42,365 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:01:57,545 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:01:57,545 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:02:12,742 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:02:12,743 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:02:27,943 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:02:27,944 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:02:43,133 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:02:43,133 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:02:58,299 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:02:58,300 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:03:13,490 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:03:13,492 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:03:28,679 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:03:28,679 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:03:43,866 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:03:43,867 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:03:59,056 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:03:59,057 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:04:14,255 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:04:14,257 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:04:29,444 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:04:29,445 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:04:44,645 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:04:44,646 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:04:59,843 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:04:59,844 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:05:15,035 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:05:15,037 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:05:30,238 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:05:30,239 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:05:45,427 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:05:45,428 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:06:00,635 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:06:00,635 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:06:15,819 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:06:15,821 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:06:31,019 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:06:31,019 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:06:46,206 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:06:46,208 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:07:01,429 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:07:01,429 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:07:16,610 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:07:16,612 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:07:31,795 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:07:31,795 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:07:46,970 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:07:46,972 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:08:02,158 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:08:02,159 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:08:17,357 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:08:17,358 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:08:32,548 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:08:32,550 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:08:47,747 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:08:47,748 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:09:02,936 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:09:02,936 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:09:18,150 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:09:18,151 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:09:33,335 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:09:33,335 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:09:48,513 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:09:48,514 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:10:03,692 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:10:03,694 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:10:18,875 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:10:18,875 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:10:34,043 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:10:34,043 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:10:49,219 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:10:49,220 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:11:05,259 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:11:05,259 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:11:20,433 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:11:20,433 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:11:35,642 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:11:35,643 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:11:50,827 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:11:50,828 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:12:06,018 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:12:06,018 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:12:21,225 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:12:21,227 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:12:36,422 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:12:36,422 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:12:51,614 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:12:51,615 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:13:06,801 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:13:06,801 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:13:22,005 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:13:22,006 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:13:37,205 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:13:37,207 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:13:52,402 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:13:52,403 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:14:07,603 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:14:07,605 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:14:22,800 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:14:22,801 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:14:38,002 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:14:38,004 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:14:53,190 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:14:53,191 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:15:08,380 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:15:08,381 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:15:23,556 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:15:23,558 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:15:38,739 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:15:38,740 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:15:53,930 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:15:53,932 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:16:09,122 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:16:09,124 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:16:24,312 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:16:24,313 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:16:39,507 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:16:39,508 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:16:54,698 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:16:54,699 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:17:09,891 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:17:09,892 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:17:25,119 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:17:25,120 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:17:40,322 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:17:40,324 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:17:55,514 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:17:55,515 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:18:10,701 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:18:10,702 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:18:25,901 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:18:25,902 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:18:41,096 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:18:41,097 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:18:56,245 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:18:56,246 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:19:11,429 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:19:11,431 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:19:26,616 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:19:26,618 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:19:41,805 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:19:41,805 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:19:56,967 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:19:56,968 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:20:12,171 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:20:12,172 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:20:27,366 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:20:27,367 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:20:42,560 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:20:42,560 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:20:57,725 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:20:57,727 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:21:13,096 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:21:13,097 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:21:28,293 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:21:28,295 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:21:43,485 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:21:43,485 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:21:58,651 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:21:58,652 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:22:13,850 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:22:13,851 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:22:29,043 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:22:29,044 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:22:44,240 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:22:44,240 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:22:59,414 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:22:59,415 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:23:14,609 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:23:14,611 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:23:29,801 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:23:29,802 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:23:44,982 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:23:44,984 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:24:00,160 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:24:00,161 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:24:15,348 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:24:15,349 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:24:30,519 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:24:30,520 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:24:45,714 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:24:45,715 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:25:00,921 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:25:00,921 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:25:16,124 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:25:16,125 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:25:31,313 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:25:31,315 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:25:46,508 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:25:46,509 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:26:01,703 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:26:01,704 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:26:16,882 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:26:16,883 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:26:32,081 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:26:32,082 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:26:47,271 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:26:47,273 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:27:02,465 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:27:02,466 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:27:17,660 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:27:17,662 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:27:32,870 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:27:32,871 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:27:48,078 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:27:48,080 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:28:03,271 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:28:03,272 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:28:18,479 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:28:18,480 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:28:33,677 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:28:33,678 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:28:48,870 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:28:48,872 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:29:04,106 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:29:04,108 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:29:19,297 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:29:19,299 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:29:34,493 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:29:34,494 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:29:49,702 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:29:49,704 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:30:04,896 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:30:04,897 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:30:20,096 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:30:20,097 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:30:35,296 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:30:35,298 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:30:50,492 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:30:50,493 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:31:05,680 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:31:05,683 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:31:20,860 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:31:20,862 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:31:36,054 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:31:36,055 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:31:51,245 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:31:51,246 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:32:06,440 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:32:06,441 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:32:21,632 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:32:21,633 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:32:36,822 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:32:36,823 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:32:52,009 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:32:52,010 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:33:07,194 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:33:07,194 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:33:22,393 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:33:22,394 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:33:37,588 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:33:37,589 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:33:52,787 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:33:52,788 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:34:07,990 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:34:07,991 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:34:23,206 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:34:23,207 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:34:38,408 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:34:38,409 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:34:53,650 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:34:53,651 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:35:08,845 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:35:08,846 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:35:24,031 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:35:24,032 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:35:39,224 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:35:39,225 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:35:54,416 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:35:54,417 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:36:09,620 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:36:09,622 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:36:24,823 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:36:24,825 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:36:40,024 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:36:40,025 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:36:55,211 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:36:55,212 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:37:10,392 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:37:10,394 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:37:25,584 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:37:25,585 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:37:40,795 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:37:40,795 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:37:55,948 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:37:55,949 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:38:11,133 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:38:11,133 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:38:26,308 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:38:26,308 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:38:41,491 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:38:41,491 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:38:56,666 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:38:56,667 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:39:11,844 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:39:11,844 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:39:27,115 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:39:27,116 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:39:42,296 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:39:42,297 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:39:57,503 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:39:57,504 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:40:12,690 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:40:12,691 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:40:27,882 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:40:27,883 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:40:43,072 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:40:43,073 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:40:58,262 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:40:58,264 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:41:13,458 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:41:13,469 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:41:28,645 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:41:28,646 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:41:43,837 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:41:43,838 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:41:58,999 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:41:59,000 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:42:14,196 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:42:14,196 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:42:29,375 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:42:29,377 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:42:44,564 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:42:44,566 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:42:59,753 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:42:59,754 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:43:14,944 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:43:14,945 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:43:30,132 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:43:30,133 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:43:45,328 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:43:45,329 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:44:00,519 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:44:00,519 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:44:15,713 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:44:15,714 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:44:30,892 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:44:30,894 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:44:46,084 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:44:46,085 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:45:01,290 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:45:01,291 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:45:16,490 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:45:16,492 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:45:31,693 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:45:31,694 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:45:46,881 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:45:46,883 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:46:02,085 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:46:02,086 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:46:17,264 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:46:17,265 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:46:32,467 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:46:32,468 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:46:47,674 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:46:47,676 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:47:02,879 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:47:02,880 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:47:18,082 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:47:18,083 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:47:33,276 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:47:33,277 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:47:48,459 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:47:48,461 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:48:03,651 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:48:03,652 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:48:18,845 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:48:18,847 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:48:34,038 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:48:34,039 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:48:49,236 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:48:49,238 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:49:04,440 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:49:04,441 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:49:19,627 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:49:19,628 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:49:34,809 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:49:34,810 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:49:50,009 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:49:50,010 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:50:05,202 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:50:05,204 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:50:20,387 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:50:20,388 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:50:35,577 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:50:35,578 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:50:51,212 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:50:51,213 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:51:06,386 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:51:06,400 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:51:21,591 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:51:21,591 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:51:36,774 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:51:36,775 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:51:51,964 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:51:51,964 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:52:07,165 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:52:07,166 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:52:22,367 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:52:22,368 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:52:37,561 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:52:37,562 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:52:52,754 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:52:52,755 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:53:08,468 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:53:08,469 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:53:23,659 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:53:23,660 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:53:38,849 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:53:38,850 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:53:54,034 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:53:54,036 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:54:09,223 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:54:09,224 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:54:26,994 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:54:26,995 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:54:42,192 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:54:42,192 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:54:57,356 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:54:57,357 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:55:12,998 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:55:12,999 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:55:28,193 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:55:28,194 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:55:43,369 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-14 09:55:43,370 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: stop_status
+2022-12-14 09:55:43,767 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-14 09:55:43,768 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-14 09:55:44,005 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-14 09:55:44,005 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-14 09:55:44,008 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: pause
+2022-12-14 09:55:44,008 INFO    HandlerThread:20167 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-14 09:55:45,738 INFO    Thread-30 :20167 [upload_job.py:push():96] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/32/7096519b4f028600edecc3dd03e801
+2022-12-14 09:55:46,847 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3OTc5NjM1', 'digest': 'ac34fdcf42b67e6e4084c0a1a0b5d9cd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'versionIndex': 20}}, 'version': 'latest'}
+2022-12-14 09:55:46,848 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-14 09:55:48,506 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: resume
+2022-12-14 09:55:48,506 INFO    HandlerThread:20167 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-14 09:55:48,508 DEBUG   SenderThread:20167 [sender.py:send():302] send: telemetry
+2022-12-14 09:55:48,722 DEBUG   SenderThread:20167 [sender.py:send():302] send: config
+2022-12-14 09:55:48,997 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/code/_session_history.ipynb
+2022-12-14 09:55:48,998 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/code
+2022-12-14 09:55:49,077 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-14 09:55:49,077 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: log_artifact
+2022-12-14 09:55:49,082 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:50,041 INFO    Thread-33 :20167 [upload_job.py:push():93] Skipped uploading /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/32/7096519b4f028600edecc3dd03e801
+2022-12-14 09:55:50,779 INFO    Thread-34 :20167 [upload_job.py:push():96] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/89/9d4f2c70a87d0741d7ca96d523bd47
+2022-12-14 09:55:51,883 INFO    SenderThread:20167 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3OTc5NjU1', 'digest': 'b2f8f79a1920c726903729986cbf4d28', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3OTc5NjM1', 'versionIndex': 21}}, 'version': 'latest'}
+2022-12-14 09:55:51,884 DEBUG   SenderThread:20167 [sender.py:send():302] send: exit
+2022-12-14 09:55:51,885 INFO    SenderThread:20167 [sender.py:send_exit():438] handling exit code: 0
+2022-12-14 09:55:51,886 INFO    SenderThread:20167 [sender.py:send_exit():440] handling runtime: 27
+2022-12-14 09:55:51,889 INFO    SenderThread:20167 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-14 09:55:51,889 INFO    SenderThread:20167 [sender.py:send_exit():446] send defer
+2022-12-14 09:55:51,890 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:51,891 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,892 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 0
+2022-12-14 09:55:51,892 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,893 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-12-14 09:55:51,893 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 1
+2022-12-14 09:55:51,893 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,893 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 1
+2022-12-14 09:55:51,954 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,955 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-12-14 09:55:51,956 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 2
+2022-12-14 09:55:51,956 DEBUG   SenderThread:20167 [sender.py:send():302] send: stats
+2022-12-14 09:55:51,957 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,957 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 2
+2022-12-14 09:55:51,957 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,957 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-12-14 09:55:51,957 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 3
+2022-12-14 09:55:51,957 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,958 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 3
+2022-12-14 09:55:51,958 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,958 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-12-14 09:55:51,958 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 4
+2022-12-14 09:55:51,958 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,958 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 4
+2022-12-14 09:55:51,959 DEBUG   SenderThread:20167 [sender.py:send():302] send: summary
+2022-12-14 09:55:51,960 INFO    SenderThread:20167 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-14 09:55:51,960 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,960 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-12-14 09:55:51,960 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 5
+2022-12-14 09:55:51,961 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:51,961 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 5
+2022-12-14 09:55:51,961 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:51,961 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-12-14 09:55:52,008 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:52,014 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-summary.json
+2022-12-14 09:55:52,178 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 6
+2022-12-14 09:55:52,179 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:52,180 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:52,180 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 6
+2022-12-14 09:55:52,182 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:52,182 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-12-14 09:55:52,290 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:53,021 INFO    Thread-12 :20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/config.yaml
+2022-12-14 09:55:53,520 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 7
+2022-12-14 09:55:53,521 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:53,521 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:53,522 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 7
+2022-12-14 09:55:53,522 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:53,522 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-12-14 09:55:53,522 INFO    SenderThread:20167 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-14 09:55:53,630 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,025 INFO    SenderThread:20167 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/output.log
+2022-12-14 09:55:54,027 INFO    SenderThread:20167 [dir_watcher.py:finish():392] scan: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files
+2022-12-14 09:55:54,027 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/diff.patch diff.patch
+2022-12-14 09:55:54,028 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/requirements.txt requirements.txt
+2022-12-14 09:55:54,028 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/output.log output.log
+2022-12-14 09:55:54,029 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/config.yaml config.yaml
+2022-12-14 09:55:54,040 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-summary.json wandb-summary.json
+2022-12-14 09:55:54,040 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/conda-environment.yaml conda-environment.yaml
+2022-12-14 09:55:54,054 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-metadata.json wandb-metadata.json
+2022-12-14 09:55:54,056 INFO    SenderThread:20167 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/code/_session_history.ipynb code/_session_history.ipynb
+2022-12-14 09:55:54,060 INFO    SenderThread:20167 [sender.py:transition_state():459] send defer: 8
+2022-12-14 09:55:54,061 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,065 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:54,066 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 8
+2022-12-14 09:55:54,067 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:54,067 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-12-14 09:55:54,068 INFO    SenderThread:20167 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-14 09:55:54,175 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,175 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,282 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,282 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,389 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,389 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,498 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,499 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,607 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,608 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,649 INFO    Thread-37 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/config.yaml
+2022-12-14 09:55:54,653 INFO    Thread-35 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/requirements.txt
+2022-12-14 09:55:54,653 INFO    Thread-38 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/wandb-summary.json
+2022-12-14 09:55:54,657 INFO    Thread-36 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/output.log
+2022-12-14 09:55:54,659 INFO    Thread-39 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/conda-environment.yaml
+2022-12-14 09:55:54,719 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,719 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,828 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,829 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:54,940 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:54,940 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:55,051 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:55,052 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:55,162 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:55,162 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:55,186 INFO    Thread-40 :20167 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/files/code/_session_history.ipynb
+2022-12-14 09:55:55,269 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:55,270 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:55,380 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:55:55,381 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: poll_exit
+2022-12-14 09:55:55,387 INFO    Thread-11 :20167 [sender.py:transition_state():459] send defer: 9
+2022-12-14 09:55:55,388 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: defer
+2022-12-14 09:55:55,388 INFO    HandlerThread:20167 [handler.py:handle_request_defer():164] handle defer: 9
+2022-12-14 09:55:55,389 DEBUG   SenderThread:20167 [sender.py:send_request():316] send_request: defer
+2022-12-14 09:55:55,389 INFO    SenderThread:20167 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-12-14 09:55:55,492 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:00,600 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:05,709 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:10,821 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:15,935 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:21,045 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:26,157 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:31,265 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:36,376 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:41,483 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:46,595 DEBUG   HandlerThread:20167 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-14 09:56:51,188 INFO    WriterThread:20167 [datastore.py:close():279] close: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_190055-p4v3c51o/run-p4v3c51o.wandb

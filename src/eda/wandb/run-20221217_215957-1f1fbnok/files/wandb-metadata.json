@@ -1,0 +1,41 @@
+{
+    "os": "macOS-12.6-x86_64-i386-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-17T20:00:02.825914",
+    "startedAt": "2022-12-17T19:59:57.908216",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/Users/christoszacharopoulos/projects/ny_short_rental_prediction",
+    "git": {
+        "remote": "https://github.com/Christonikos/ny_short_rental_prediction.git",
+        "commit": "e67f685d5c04245c0e84f30f5fdb332c328d8e7f"
+    },
+    "email": "christonik@gmail.com",
+    "host": "Christoss-MacBook-Air-2.local",
+    "username": "christoszacharopoulos",
+    "executable": "/Users/christoszacharopoulos/anaconda3/envs/mlflow-e9fae1e4f5bdafef1e7f2db7aa878bc069367395/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 134.0988998413086
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

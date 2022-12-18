@@ -1,0 +1,221 @@
+2022-12-13 18:59:40,129 INFO    StreamThr :20067 [internal.py:wandb_internal():90] W&B internal server running at pid: 20067, started at: 2022-12-13 18:59:40.127940
+2022-12-13 18:59:40,133 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: status
+2022-12-13 18:59:40,140 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: status
+2022-12-13 18:59:40,141 DEBUG   SenderThread:20067 [sender.py:send():302] send: header
+2022-12-13 18:59:40,142 INFO    WriterThread:20067 [datastore.py:open_for_write():75] open: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/run-2lc4lx99.wandb
+2022-12-13 18:59:40,188 DEBUG   SenderThread:20067 [sender.py:send():302] send: run
+2022-12-13 18:59:40,533 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: check_version
+2022-12-13 18:59:40,545 INFO    SenderThread:20067 [dir_watcher.py:__init__():216] watching files in: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files
+2022-12-13 18:59:40,545 INFO    SenderThread:20067 [sender.py:_start_run_threads():913] run started: 2lc4lx99 with start time 1670954380.108305
+2022-12-13 18:59:40,545 DEBUG   SenderThread:20067 [sender.py:send():302] send: summary
+2022-12-13 18:59:40,546 INFO    SenderThread:20067 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 18:59:40,547 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: check_version
+2022-12-13 18:59:40,616 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: run_start
+2022-12-13 18:59:40,625 DEBUG   HandlerThread:20067 [meta.py:__init__():35] meta init
+2022-12-13 18:59:40,625 DEBUG   HandlerThread:20067 [meta.py:__init__():50] meta init done
+2022-12-13 18:59:40,625 DEBUG   HandlerThread:20067 [meta.py:probe():216] probe
+2022-12-13 18:59:40,635 DEBUG   HandlerThread:20067 [meta.py:_setup_git():206] setup git
+2022-12-13 18:59:40,693 DEBUG   HandlerThread:20067 [meta.py:_setup_git():213] setup git done
+2022-12-13 18:59:40,694 DEBUG   HandlerThread:20067 [meta.py:_save_code():88] save code
+2022-12-13 18:59:40,694 WARNING HandlerThread:20067 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-12-13 18:59:40,694 DEBUG   HandlerThread:20067 [meta.py:_save_patches():126] save patches
+2022-12-13 18:59:40,896 DEBUG   HandlerThread:20067 [meta.py:_save_patches():168] save patches done
+2022-12-13 18:59:40,896 DEBUG   HandlerThread:20067 [meta.py:_save_pip():54] save pip
+2022-12-13 18:59:40,897 DEBUG   HandlerThread:20067 [meta.py:_save_pip():68] save pip done
+2022-12-13 18:59:40,897 DEBUG   HandlerThread:20067 [meta.py:_save_conda():75] save conda
+2022-12-13 18:59:41,557 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-summary.json
+2022-12-13 18:59:41,558 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/conda-environment.yaml
+2022-12-13 18:59:41,559 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/requirements.txt
+2022-12-13 18:59:41,560 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/diff.patch
+2022-12-13 19:00:06,018 DEBUG   HandlerThread:20067 [meta.py:_save_conda():85] save conda done
+2022-12-13 19:00:06,019 DEBUG   HandlerThread:20067 [meta.py:probe():254] probe done
+2022-12-13 19:00:06,023 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:00:06,023 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:00:06,025 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,025 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,025 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,039 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,039 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,040 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,040 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,040 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,146 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,146 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,147 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,147 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,147 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,171 DEBUG   SenderThread:20067 [sender.py:send():302] send: telemetry
+2022-12-13 19:00:06,172 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:06,252 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,253 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,253 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,253 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,253 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,355 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,356 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,356 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,356 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,356 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,457 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,457 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,458 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,458 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,458 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,563 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,564 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,564 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,564 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,564 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,632 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/conda-environment.yaml
+2022-12-13 19:00:06,633 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-metadata.json
+2022-12-13 19:00:06,670 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,670 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,670 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,670 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,670 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,772 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,773 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,773 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,773 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,773 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,879 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,879 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,879 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:00:06,880 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,880 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,880 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:06,986 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:06,986 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:06,987 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:06,987 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:06,987 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:07,703 INFO    Thread-25 :20067 [upload_job.py:push():96] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/f2/f3f24d621453552f369ea91ef507f3
+2022-12-13 19:00:08,660 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk1NzEx', 'versionIndex': 18}}, 'version': 'latest'}
+2022-12-13 19:00:08,660 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:09,030 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:09,033 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:09,417 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:09,417 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:09,641 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:09,850 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:09,851 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:10,236 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:10,435 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:10,647 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/config.yaml
+2022-12-13 19:00:10,831 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:10,831 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:11,218 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:11,219 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:11,606 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:11,607 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:11,652 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:12,009 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:12,010 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:00:12,186 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:12,594 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:12,595 DEBUG   SenderThread:20067 [sender.py:send():302] send: files
+2022-12-13 19:00:12,596 INFO    SenderThread:20067 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-12-13 19:00:12,598 INFO    SenderThread:20067 [sender.py:_save_file():1156] saving file diff.patch with policy now
+2022-12-13 19:00:12,599 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,599 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,600 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,601 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,601 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:12,850 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: resume
+2022-12-13 19:00:12,850 INFO    HandlerThread:20067 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-12-13 19:00:12,977 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'digest': '7f4c263656a12e66ba48a8882464eeca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'latest'}, {'artifactCollectionName': 'source-nyc_airbnb-None', 'alias': 'v19'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'v19'}
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:12,977 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:13,197 INFO    Thread-28 :20067 [upload_job.py:push():138] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpr3v16i_dwandb/3vmt8a3k-wandb-metadata.json
+2022-12-13 19:00:13,368 INFO    Thread-29 :20067 [upload_job.py:push():138] Uploaded file /var/folders/nm/0bj88r1s27zgjf_kjcfv1gqh0000gn/T/tmpr3v16i_dwandb/2for62e5-diff.patch
+2022-12-13 19:00:25,739 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:00:25,740 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:00:32,718 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:34,724 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:36,735 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:38,745 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:40,755 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:41,132 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: stop_status
+2022-12-13 19:00:41,133 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: stop_status
+2022-12-13 19:00:41,848 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:42,765 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:49,525 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: log_artifact
+2022-12-13 19:00:49,526 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: log_artifact
+2022-12-13 19:00:49,529 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: pause
+2022-12-13 19:00:49,529 INFO    HandlerThread:20067 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-12-13 19:00:49,551 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-13 19:00:49,800 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:52,065 INFO    Thread-32 :20067 [upload_job.py:push():96] Uploaded file /Users/christoszacharopoulos/.cache/wandb/artifacts/obj/md5/8a/e8c29cd881a80c69b99795d3e3c030
+2022-12-13 19:00:53,248 INFO    SenderThread:20067 [sender.py:send_request_log_artifact():1207] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6Mjk3Njk3MjQw', 'digest': '21e94bce512c93cc1f10ca404604afb3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3NDY4ODEz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk3Njk2OTYy', 'versionIndex': 19}}, 'version': 'latest'}
+2022-12-13 19:00:53,248 DEBUG   SenderThread:20067 [sender.py:send():302] send: exit
+2022-12-13 19:00:53,248 INFO    SenderThread:20067 [sender.py:send_exit():438] handling exit code: 0
+2022-12-13 19:00:53,248 INFO    SenderThread:20067 [sender.py:send_exit():440] handling runtime: 63
+2022-12-13 19:00:53,249 INFO    SenderThread:20067 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 19:00:53,249 INFO    SenderThread:20067 [sender.py:send_exit():446] send defer
+2022-12-13 19:00:53,249 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: poll_exit
+2022-12-13 19:00:53,249 DEBUG   SenderThread:20067 [sender.py:send():302] send: stats
+2022-12-13 19:00:53,249 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,249 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 0
+2022-12-13 19:00:53,250 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 1
+2022-12-13 19:00:53,250 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,250 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 1
+2022-12-13 19:00:53,250 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 2
+2022-12-13 19:00:53,250 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,250 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 2
+2022-12-13 19:00:53,250 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-12-13 19:00:53,250 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 3
+2022-12-13 19:00:53,251 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,251 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 3
+2022-12-13 19:00:53,251 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 4
+2022-12-13 19:00:53,251 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,251 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 4
+2022-12-13 19:00:53,251 DEBUG   SenderThread:20067 [sender.py:send():302] send: summary
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-13 19:00:53,251 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 5
+2022-12-13 19:00:53,251 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,251 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 5
+2022-12-13 19:00:53,251 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-12-13 19:00:53,251 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 6
+2022-12-13 19:00:53,252 DEBUG   HandlerThread:20067 [handler.py:handle_request():141] handle_request: defer
+2022-12-13 19:00:53,252 INFO    HandlerThread:20067 [handler.py:handle_request_defer():164] handle defer: 6
+2022-12-13 19:00:53,252 DEBUG   SenderThread:20067 [sender.py:send_request():316] send_request: defer
+2022-12-13 19:00:53,252 INFO    SenderThread:20067 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-12-13 19:00:53,510 WARNING StreamThr :20067 [internal.py:is_dead():387] Internal process exiting, parent pid 20039 disappeared
+2022-12-13 19:00:53,526 ERROR   StreamThr :20067 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-12-13 19:00:53,818 INFO    Thread-12 :20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-summary.json
+2022-12-13 19:00:54,253 INFO    HandlerThread:20067 [handler.py:finish():810] shutting down handler
+2022-12-13 19:00:54,253 INFO    WriterThread:20067 [datastore.py:close():279] close: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/run-2lc4lx99.wandb
+2022-12-13 19:00:56,491 INFO    SenderThread:20067 [sender.py:transition_state():459] send defer: 7
+2022-12-13 19:00:56,492 INFO    SenderThread:20067 [sender.py:finish():1312] shutting down sender
+2022-12-13 19:00:56,492 INFO    SenderThread:20067 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-13 19:00:56,833 INFO    SenderThread:20067 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:56,833 INFO    SenderThread:20067 [dir_watcher.py:finish():392] scan: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/diff.patch diff.patch
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/requirements.txt requirements.txt
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log output.log
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/config.yaml config.yaml
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-summary.json wandb-summary.json
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/conda-environment.yaml conda-environment.yaml
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [dir_watcher.py:finish():406] scan save: /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-metadata.json wandb-metadata.json
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-13 19:00:56,834 INFO    SenderThread:20067 [file_pusher.py:join():176] waiting for file pusher
+2022-12-13 19:00:57,344 INFO    Thread-35 :20067 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/config.yaml
+2022-12-13 19:00:57,363 INFO    Thread-37 :20067 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/conda-environment.yaml
+2022-12-13 19:00:57,426 INFO    Thread-34 :20067 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/output.log
+2022-12-13 19:00:57,439 INFO    Thread-33 :20067 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/requirements.txt
+2022-12-13 19:00:57,767 INFO    Thread-36 :20067 [upload_job.py:push():138] Uploaded file /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221213_185940-2lc4lx99/files/wandb-summary.json

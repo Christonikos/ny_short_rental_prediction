@@ -1,28 +1,31 @@
+# =============================================================================
+# IMPORT MODULES
+# =============================================================================
 import json
-
 import mlflow
 import tempfile
 import os
-import wandb
 import hydra
 from omegaconf import DictConfig
 
+# =============================================================================
+# PIPELINE STEPS
+# =============================================================================
 _steps = [
     "download",
     "basic_cleaning",
     "data_check",
     "data_split",
     "train_random_forest",
-    # NOTE: We do not include this in the steps so it is not run by mistake.
-    # You first need to promote a model export to "prod" before you can run this,
-    # then you need to run this step explicitly
-    #    "test_regression_model"
+    "test_regression_model"
 ]
-
 # aliases
 join = os.path.join
 
 
+# =============================================================================
+# MAIN: HYDRA LINKS THE INDIVIDUAL MLFLOW COMPONENTS
+# =============================================================================
 # This automatically reads in the configuration
 @hydra.main(config_name='config')
 def go(config: DictConfig):
@@ -102,15 +105,11 @@ def go(config: DictConfig):
 
         if "train_random_forest" in active_steps:
 
-            # NOTE: we need to serialize the random forest configuration into JSON
             rf_config = os.path.abspath("rf_config.json")
             with open(rf_config, "w+") as fp:
                 # DO NOT TOUCH
                 json.dump(
                     dict(config["modeling"]["random_forest"].items()), fp)
-
-            # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
-            # step
 
             _ = mlflow.run(
                 os.path.join(root_dir, "src", "train_random_forest"),
@@ -137,5 +136,8 @@ def go(config: DictConfig):
             )
 
 
+# =============================================================================
+# CALL THE MAIN
+# =============================================================================
 if __name__ == "__main__":
     go()

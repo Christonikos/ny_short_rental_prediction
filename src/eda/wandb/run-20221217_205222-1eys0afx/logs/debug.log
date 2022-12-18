@@ -1,0 +1,50 @@
+2022-12-17 20:52:22,101 INFO    MainThread:9825 [wandb_setup.py:_flush():68] Configure stats pid to 9825
+2022-12-17 20:52:22,102 INFO    MainThread:9825 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/.config/wandb/settings
+2022-12-17 20:52:22,102 INFO    MainThread:9825 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/settings
+2022-12-17 20:52:22,102 INFO    MainThread:9825 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-12-17 20:52:22,102 INFO    MainThread:9825 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-12-17 20:52:22,102 INFO    MainThread:9825 [wandb_init.py:_log_setup():476] Logging user logs to /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221217_205222-1eys0afx/logs/debug.log
+2022-12-17 20:52:22,103 INFO    MainThread:9825 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221217_205222-1eys0afx/logs/debug-internal.log
+2022-12-17 20:52:22,103 INFO    MainThread:9825 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16fd82af0>
+2022-12-17 20:52:22,105 INFO    MainThread:9825 [wandb_init.py:init():516] calling init triggers
+2022-12-17 20:52:22,105 INFO    MainThread:9825 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-12-17 20:52:22,105 INFO    MainThread:9825 [wandb_init.py:init():569] starting backend
+2022-12-17 20:52:22,105 INFO    MainThread:9825 [wandb_init.py:init():573] setting up manager
+2022-12-17 20:52:22,108 INFO    MainThread:9825 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-12-17 20:52:22,112 INFO    MainThread:9825 [wandb_init.py:init():580] backend started and connected
+2022-12-17 20:52:22,118 INFO    MainThread:9825 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-12-17 20:52:22,167 INFO    MainThread:9825 [wandb_init.py:init():658] updated telemetry
+2022-12-17 20:52:22,212 INFO    MainThread:9825 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-12-17 20:52:23,669 INFO    MainThread:9825 [wandb_run.py:_on_init():2000] communicating current version
+2022-12-17 20:52:24,443 INFO    MainThread:9825 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-12-17 20:52:24,443 INFO    MainThread:9825 [wandb_init.py:init():728] starting run threads in backend
+2022-12-17 20:52:27,260 INFO    MainThread:9825 [wandb_run.py:_console_start():1980] atexit reg
+2022-12-17 20:52:27,260 INFO    MainThread:9825 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-12-17 20:52:27,261 INFO    MainThread:9825 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-12-17 20:52:27,261 INFO    MainThread:9825 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-12-17 20:52:27,261 INFO    MainThread:9825 [wandb_init.py:init():765] run started, returning control to user process
+2022-12-17 20:52:27,262 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:52:27,262 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:52:27,870 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x11182db80>
+2022-12-17 20:52:27,882 INFO    MainThread:9825 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 20:52:46,448 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:52:46,449 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:52:47,858 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x11185d8b0>
+2022-12-17 20:52:47,871 INFO    MainThread:9825 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 20:52:47,893 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:52:47,893 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:52:49,063 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x11188caf0>
+2022-12-17 20:52:49,077 INFO    MainThread:9825 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 20:52:49,099 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:52:49,099 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:52:50,205 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x170c91190>
+2022-12-17 20:52:50,215 INFO    MainThread:9825 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 20:52:50,578 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:52:50,578 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:52:51,888 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x1710ead30>
+2022-12-17 20:54:15,326 INFO    MainThread:9825 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 20:54:15,457 INFO    MainThread:9825 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 20:54:15,457 INFO    MainThread:9825 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 20:54:22,515 INFO    MainThread:9825 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x170cac220>

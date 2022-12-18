@@ -2,6 +2,9 @@
 """
 Download from W&B the raw dataset and apply some basic data cleaning, exporting the result to a new artifact
 """
+# =============================================================================
+# IMPORT MODULES
+# =============================================================================
 import argparse
 import logging
 import tempfile
@@ -60,6 +63,9 @@ def go(args):
     artifact.wait()
 
 
+# =============================================================================
+# CALL MAIN
+# =============================================================================
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="A very basic data cleaning")

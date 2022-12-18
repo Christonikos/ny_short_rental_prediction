@@ -1,0 +1,79 @@
+2022-12-17 21:52:26,266 INFO    MainThread:17724 [wandb_setup.py:_flush():68] Configure stats pid to 17724
+2022-12-17 21:52:26,266 INFO    MainThread:17724 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/.config/wandb/settings
+2022-12-17 21:52:26,266 INFO    MainThread:17724 [wandb_setup.py:_flush():68] Loading settings from /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/settings
+2022-12-17 21:52:26,266 INFO    MainThread:17724 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-12-17 21:52:26,267 INFO    MainThread:17724 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-12-17 21:52:26,267 INFO    MainThread:17724 [wandb_init.py:_log_setup():476] Logging user logs to /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221217_215226-kfp0a453/logs/debug.log
+2022-12-17 21:52:26,267 INFO    MainThread:17724 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/christoszacharopoulos/projects/ny_short_rental_prediction/src/eda/wandb/run-20221217_215226-kfp0a453/logs/debug-internal.log
+2022-12-17 21:52:26,267 INFO    MainThread:17724 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x173772260>
+2022-12-17 21:52:26,269 INFO    MainThread:17724 [wandb_init.py:init():516] calling init triggers
+2022-12-17 21:52:26,270 INFO    MainThread:17724 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-12-17 21:52:26,270 INFO    MainThread:17724 [wandb_init.py:init():569] starting backend
+2022-12-17 21:52:26,270 INFO    MainThread:17724 [wandb_init.py:init():573] setting up manager
+2022-12-17 21:52:26,275 INFO    MainThread:17724 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-12-17 21:52:26,278 INFO    MainThread:17724 [wandb_init.py:init():580] backend started and connected
+2022-12-17 21:52:26,293 INFO    MainThread:17724 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-12-17 21:52:26,295 INFO    MainThread:17724 [wandb_init.py:init():658] updated telemetry
+2022-12-17 21:52:26,351 INFO    MainThread:17724 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-12-17 21:52:27,411 INFO    MainThread:17724 [wandb_run.py:_on_init():2000] communicating current version
+2022-12-17 21:52:27,994 INFO    MainThread:17724 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-12-17 21:52:27,994 INFO    MainThread:17724 [wandb_init.py:init():728] starting run threads in backend
+2022-12-17 21:52:30,612 INFO    MainThread:17724 [wandb_run.py:_console_start():1980] atexit reg
+2022-12-17 21:52:30,612 INFO    MainThread:17724 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-12-17 21:52:30,612 INFO    MainThread:17724 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-12-17 21:52:30,612 INFO    MainThread:17724 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-12-17 21:52:30,613 INFO    MainThread:17724 [wandb_init.py:init():765] run started, returning control to user process
+2022-12-17 21:52:30,613 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:52:30,613 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:52:32,451 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x10f7db040>
+2022-12-17 21:52:32,470 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:52:48,126 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:52:48,126 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:52:55,631 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x10f873850>
+2022-12-17 21:52:55,641 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:52:55,660 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:52:55,660 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:12,442 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x17418e6b0>
+2022-12-17 21:53:12,459 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:12,477 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:12,478 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:13,044 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x1742237f0>
+2022-12-17 21:53:13,054 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:14,008 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:14,008 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:14,506 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x1749a7cd0>
+2022-12-17 21:53:14,514 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:14,553 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:14,554 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:17,357 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x1744dc9a0>
+2022-12-17 21:53:17,369 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:17,532 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:17,533 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:18,030 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x174c46320>
+2022-12-17 21:53:18,046 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:18,048 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:18,048 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:18,570 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x10f201ff0>
+2022-12-17 21:53:18,581 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:18,590 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:18,591 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:19,099 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x174c33370>
+2022-12-17 21:53:19,109 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:39,085 INFO    MainThread:17724 [wandb_init.py:_pause_backend():389] pausing backend
+2022-12-17 21:53:39,085 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:39,571 INFO    MainThread:17724 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x1792c1ff0>
+2022-12-17 21:53:39,577 INFO    MainThread:17724 [wandb_init.py:_resume_backend():398] resuming backend
+2022-12-17 21:53:39,578 INFO    MainThread:17724 [wandb_run.py:_finish():1746] finishing run christonikos/nyc_airbnb/kfp0a453
+2022-12-17 21:53:39,767 INFO    MainThread:17724 [jupyter.py:save_history():477] saving 12 cells to _session_history.ipynb
+2022-12-17 21:53:39,768 INFO    MainThread:17724 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2022-12-17 21:53:39,917 INFO    MainThread:17724 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
+2022-12-17 21:53:40,430 INFO    MainThread:17724 [wandb_init.py:_jupyter_teardown():407] saved code and history: <wandb.sdk.wandb_artifacts.Artifact object at 0x17dd2bfa0>
+2022-12-17 21:53:40,431 INFO    MainThread:17724 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-12-17 21:53:40,431 INFO    MainThread:17724 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-12-17 21:53:40,431 INFO    MainThread:17724 [wandb_run.py:_restore():1932] restore
+2022-12-17 21:53:40,432 INFO    MainThread:17724 [wandb_run.py:_restore():1938] restore done
+2022-12-17 21:57:52,768 INFO    MainThread:17724 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-17 21:57:52,770 INFO    MainThread:17724 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-17 21:57:52,776 INFO    MainThread:17724 [wandb_run.py:_footer_sync_info():3333] logging synced files
