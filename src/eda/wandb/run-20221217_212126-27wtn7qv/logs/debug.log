@@ -60,3 +60,4 @@ config: {}
 2022-12-17 21:35:58,420 INFO    MainThread:14687 [wandb_init.py:_pause_backend():389] pausing backend
 2022-12-17 21:35:58,420 INFO    MainThread:14687 [jupyter.py:_save_ipynb():389] looking for notebook: EDA.ipynb
 2022-12-17 21:35:58,992 INFO    MainThread:14687 [wandb_init.py:_pause_backend():393] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x10cc233a0>
+2022-12-26 00:56:15,643 WARNING MsgRouterThr:14687 [router.py:message_loop():77] message_loop has been closed
